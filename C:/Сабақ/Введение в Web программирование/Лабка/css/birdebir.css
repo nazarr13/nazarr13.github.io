@@ -1,0 +1,121 @@
+body{
+  background:#f2e8c9;
+}
+*{cursor: progress;}
+
+::-webkit-scrollbar{
+  width: 20px;
+}
+::-webkit-scrollbar-track{
+  background: #99FFFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1.4) inset;
+}
+::-webkit-scrollbar-thumb{
+  background: #003333;
+  border-radius: 10px;
+  border: 5px solid #99FFFF ;
+}
+ #wrapper{
+  width: 1000px; 
+  margin: 0 auto;
+  background:#FFFFFF;
+}
+#header{
+position:relative;
+  height: 260px; 
+  background-color: #CCFFFF; 
+  margin-bottom: 5px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+} 
+h1{ 
+  margin:0 0 10px 40px; 
+  color:#330033; 
+  font-size: 40px; 
+}
+
+a:link,a:visited{
+  background-color: #9933FF;
+  color: #330033;
+  font-style: normal;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.at{ 
+  position:absolute; 
+  top:5px;
+  left:680px; 
+  font-size: 30px; 
+  font-style:italic; 
+  font-weight:bold; 
+  color:#330033;
+}
+#sidebar{
+  background-color: #CCFFFF; 
+  width: 280px;
+  height:745px; 
+  font-size: 20px; 
+  padding: 10px;
+  float: right;s
+  border-radius: 7px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.marcer{ 
+  float: left; 
+  margin: 5px 5px 0 0;
+}
+#content{ 
+  margin-bottom: 5px; 
+  width: 675px; 
+  padding: 10px; 
+  background: #CCFFFF;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{
+  float: left;
+  width: 300px;
+  margin: 0 auto;
+}
+.left{
+  transition: all 1s ease;
+}
+.left:hover{
+  filter: blur(5px);
+}
+.right{
+  float: right;
+  width: 300px;
+  margin: 0 auto;
+}
+.right{
+  transition: all 1s ease;
+}
+.right:hover{
+  filter: drop-shadow(5px 6px 4px rgba(0,0,0,0.5));
+}
+#footer{ 
+  height:80px; 
+  background-color: #CCFFFF;
+  margin-bottom: 10px;
+  padding: 10px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.10) 0px 1px 3px;
+}
+.clear{ 
+  clear: both;
+}
+.aftor{
+  text-align: right;
+  margin:20px 0 0 60px;
+  }
+.fon{float:left;
+ margin:20px 0 0 60px;
+}
+.mail{
+  float:left;
+ margin:20px 0 0 60px;
+}

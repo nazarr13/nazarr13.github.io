@@ -1,0 +1,172 @@
+body{
+  padding: 30px;
+  background:#f2e8c9;
+  font-family: colibri,sans-serif;
+  box-shadow: rgba(0,0,0,0.5) 0px 2px 5px;
+}
+
+*{cursor: pointer;}
+
+::-webkit-scrollbar{
+  width: 20px;
+}
+::-webkit-scrollbar-track{
+  background: #99FFFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1.4) inset;
+}
+::-webkit-scrollbar-thumb{
+  background: #003333;
+  border-radius: 50px;
+  border: 5px solid #99FFFF ;
+}
+ #one{
+  width: 1200px; 
+  margin: 0 auto;
+  background: #CCFFFF;
+  box-shadow: rgba(0,0,0,0.5) 0px 2px 5px;
+  border-radius: 100px;
+}
+#first{
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+#two{
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+.list li{
+  text-align: left;
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+}
+.list li:before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #99FF99;
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+.list li:hover:before{
+  background: #9900CC;
+}
+.klist{
+  text-align: left;
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+}
+.klist li:before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #99FF99;
+  display: inline-flex;
+  margin: 0px 10px 0px 0px;
+}
+.klist li:hover:before{
+  background: #CCFF00;
+}
+.left{
+  width: 400px;
+  height: 100px ;
+  autostart: false; 
+  box-shadow: rgba(3,3,4,1.10) 3px 5px 10px;
+  border-radius: 50px;
+}
+.right{
+  width: 800px;
+  height: 500px ;
+  autostart: false; 
+  box-shadow: rgba(5,7,8,2.15) 5px 10px 20px;
+  border-radius: 70px;
+}
+a:link,a:visited{
+  background-color: #CC99FF;
+  color: #330033;
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+#nm{
+  background-color: #CC99FF;
+  color: #330033;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.bir{
+  float: left;
+  width: 400px;
+  border-radius: 70px; 
+}
+.bir{
+  transition: all 1s ease;
+}
+.bir:hover{
+  filter: grayscale(80%);
+} 
+.bit{
+  float: left;
+  width: 400px;
+  border-radius: 70px; 
+}
+.bit{
+  transition: all 1s ease;
+}
+.bit:hover{
+  filter: brightness(150%);
+}
+.biy{
+  float: left;
+  width: 400px;
+  border-radius: 70px; 
+}
+.biy{
+  transition: all 1s ease;
+}
+.biy:hover{
+  filter: contrast(170%);
+}
+.biu{
+  float: left;
+  width: 400px;
+  border-radius: 70px; 
+}
+.biu{
+  transition: all 1s ease;
+}
+.biu:hover{
+  filter: hue-rotate(180deg);
+}
+.bii{
+  float: left;
+  width: 400px;
+  border-radius: 70px; 
+}
+.bii{
+  transition: all 1s ease;
+}
+.bii:hover{
+  filter: invert(50%);
+}
+.eki{
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+.ysh{
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+}
